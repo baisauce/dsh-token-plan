@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "千问 Token Plan 额度",
+    "description": "在会话与桌宠里查看千问 Token Plan 剩余额度：token_plan 工具、/tokenplan 命令、带用量条的气泡，并在登录过期时自动续期。"
+  }
+}

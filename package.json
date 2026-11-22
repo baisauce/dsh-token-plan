@@ -1,0 +1,51 @@
+{
+  "name": "dsh-token-plan",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Qianwen Token Plan credits for DeepSeek Harness: a token_plan tool, a /tokenplan command, a dsh-pet balance bubble with a usage bar, and silent renewal of the Qwen CLI login.",
+  "type": "module",
+  "icon": "icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "login-browser.mjs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "qianwen",
+    "token-plan",
+    "credits",
+    "quota",
+    "dsh-pet",
+    "cordis"
+  ],
+  "license": "MIT",
+  "author": "baisauce",
+  "homepage": "https://github.com/baisauce/dsh-token-plan#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baisauce/dsh-token-plan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baisauce/dsh-token-plan/issues"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

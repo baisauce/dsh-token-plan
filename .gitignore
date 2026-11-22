@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# local run artifacts
+*.log
+*.result.json
+dsh-token-plan-login-*.json
+
+# Edge login profile (never commit cookies)
+browser-profile/
+browser-profile.*/
+**/browser-profile*/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
